@@ -1,7 +1,18 @@
+<template>
+  <div class="app-container">
+    <BlockList />
+  </div>
+</template>
+
+
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import BlockList from './components/BlockList.vue'
 </script>
 
-<template>
-  <HelloWorld />
-</template>
+<style scoped>
+.app-container {
+  padding: 20px;
+}
+</style>
+
+
